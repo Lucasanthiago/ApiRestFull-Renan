@@ -1,0 +1,16 @@
+com/carlosribeiro/apirestfulv1/exception/ErrorResponse.class
+com/carlosribeiro/apirestfulv1/service/ProdutoService.class
+com/carlosribeiro/apirestfulv1/model/Usuario.class
+com/carlosribeiro/apirestfulv1/service/AutenticacaoService.class
+com/carlosribeiro/apirestfulv1/model/Produto.class
+com/carlosribeiro/apirestfulv1/repository/UsuarioRepository.class
+com/carlosribeiro/apirestfulv1/exception/EntidadeNaoEncontradaException.class
+com/carlosribeiro/apirestfulv1/repository/CategoriaRepository.class
+com/carlosribeiro/apirestfulv1/model/Categoria.class
+com/carlosribeiro/apirestfulv1/exception/GlobalExceptionHandler.class
+com/carlosribeiro/apirestfulv1/Apirestfulv1Application.class
+com/carlosribeiro/apirestfulv1/repository/ProdutoRepository.class
+com/carlosribeiro/apirestfulv1/controller/AutenticacaoController.class
+com/carlosribeiro/apirestfulv1/model/ResultadoPaginado.class
+com/carlosribeiro/apirestfulv1/util/TokenResponse.class
+com/carlosribeiro/apirestfulv1/controller/ProdutoController.class
