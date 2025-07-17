@@ -25,12 +25,12 @@ public class LocacaoController {
 
     /**
      * Endpoint para realizar uma nova locação.
-     * Espera um corpo de requisição (DTO) com o ID do cliente e uma lista dos IDs das CÓPIAS
+     * Espera um corpo de requisição (DTO) com o ID do cliente e o ID da cópia
      * que ele deseja alugar.
      */
     @PostMapping
     public ResponseEntity<Locacao> realizarLocacao(@RequestBody LocacaoRequestDTO locacaoRequest) {
-        Locacao novaLocacao = locacaoService.realizarLocacao(locacaoRequest.getClienteId(), locacaoRequest.getCopiaIds());
+        Locacao novaLocacao = locacaoService.realizarLocacao(locacaoRequest.clienteId(), locacaoRequest.copiaId());
         return ResponseEntity.ok(novaLocacao);
     }
 
