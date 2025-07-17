@@ -81,7 +81,7 @@ public class LocacaoService {
 
     public List<Locacao> listarLocacoesPorCliente(Long clienteId) {
         if (!clienteRepository.existsById(clienteId)) {
-            throw new EntidadeNaoEnconradaException("Cliente não encontrado.");
+            throw new EntidadeNaoEncontradaException("Cliente não encontrado.");
         }
         return locacaoRepository.findByCliente_Id(clienteId);
     }

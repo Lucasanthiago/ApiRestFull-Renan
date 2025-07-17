@@ -25,3 +25,4 @@ public class AutenticacaoController {
             return new TokenResponse(0);
         }
     }
+}
